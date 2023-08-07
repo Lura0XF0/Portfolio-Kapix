@@ -1,0 +1,378 @@
+// Haut de page
+.haut-de-page--c1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+    position: sticky;
+    inset: 0px auto auto 0px;
+  }
+  &.inner-style {
+    max-width: 1400px;
+  }
+  &.property-style {
+    border-radius: 100px;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(13px);
+    padding: 10px 30px 10px 30px;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-between;
+  }
+}
+// Haut de page > Logo
+.logo--c1 {
+  &.outer-style {
+    height: 100px;
+    min-height: 100px;
+    align-self: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.property-style {
+    cursor: pointer;
+  }
+  &.template-style {
+    max-height: 100px;
+  }
+}
+// Haut de page > Onglets
+.onglets--c1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 999;
+  }
+  &.property-style {
+    font-size: 1.17em;
+    font-weight: bold;
+  }
+  &.scroller-style {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: inherit;
+    justify-content: space-around;
+    align-items: center;
+  }
+  @include media-breakpoint-down(xs) {
+    &.scroller-style {
+      flex-direction: inherit;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  }
+}
+// Haut de page > Onglets > Onglet 1
+.onglet-1--c1 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .onglet-1--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .onglet-1--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    z-index: 1000;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .onglet-1--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .onglet-1--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+// Haut de page > Onglets > Onglet 2
+.onglet-2--c1 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .onglet-2--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .onglet-2--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    z-index: 999;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .onglet-2--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .onglet-2--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+// Haut de page > Onglets > Onglet 3
+.onglet-3--c1 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .onglet-3--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .onglet-3--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    z-index: 998;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .onglet-3--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .onglet-3--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+// Haut de page > Onglets > Onglet 4
+.onglet-4--c1 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .onglet-4--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .onglet-4--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    z-index: 997;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .onglet-4--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .onglet-4--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+// Haut de page > Onglets > Onglet 5
+.onglet-5--c1 {
+  &.outer-style {
+    &.state-hover:not(#\ ) {
+      .onglet-5--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    &.state-selected:not(#\ ):not(#\ ) {
+      .onglet-5--c1 {
+        &.property-style {
+          font-style: normal;
+          text-decoration: underline;
+        }
+      }
+    }
+    z-index: 996;
+  }
+  &.property-style {
+    overflow: hidden;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+  }
+  &.template-style {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      &.state-hover:not(#\ ) {
+        .onglet-5--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+      &.state-selected:not(#\ ):not(#\ ) {
+        .onglet-5--c1 {
+          &.property-style {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+// Haut de page > Bouton
+.bouton--c1:not(#\ ) {
+  &.outer-style {
+    transition: transform 0.2s ease;
+    z-index: 998;
+  }
+  &.property-style {
+    transition: box-shadow 0.2s ease;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+// Haut de page > Menu burger
+.menu-burger--c1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    z-index: 993;
+  }
+  &.property-style {
+    text-align: center;
+  }
+  @include media-breakpoint-down(sm) {
+    &.outer-style {
+      transition: transform 0.3s ease;
+      height: 70px;
+      width: 70px;
+      min-height: 70px;
+      min-width: 70px;
+      overflow: inherit;
+      align-self: center;
+      &.state-selected:not(#\ ):not(#\ ) {
+        transform: rotate(180deg);
+      }
+    }
+    &.inner-style {
+      height: 100%;
+    }
+    &.property-style {
+      transition: color 0.3s ease;
+      border-radius: 100px;
+      overflow: hidden;
+      font-size: 2em;
+      padding: 15px;
+      cursor: pointer;
+    }
+    &.template-style {
+      max-width: 70px;
+      max-height: 70px;
+    }
+  }
+}
