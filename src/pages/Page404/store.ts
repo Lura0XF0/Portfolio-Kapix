@@ -1,7 +1,7 @@
-import page404StoreCustom from './store.custom'
-import type { CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier, KaElementMap } from 'kapix-components-vue3'
+import type { CustomStoreImplementationOptions, KaElementMap, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
 import { defineStore } from 'pinia'
-import { kapixContext, navigateTo, initAliveStoreIds, remove } from 'kapix-components-vue3'
+import { initAliveStoreIds, kapixContext, navigateTo, remove } from 'kapix-components-vue3'
+import page404StoreCustom from './store.custom'
 import { $translate } from '~/modules/i18n'
 
 const storeName = 'page404'
@@ -20,8 +20,8 @@ function page404Factory (storeId?: Nullable<StoreIdentifier>) {
         $router: kapixContext.isClient ? kapixContext.$router : undefined,
         $route: kapixContext.isClient ? kapixContext.$route : undefined,
         // Page info,
-        $title: $translate('page-404.title', `Page 404`),
-        $description: $translate('page-404.description', ``),
+        $title: $translate('page-404.title', 'Page 404'),
+        $description: $translate('page-404.description', ''),
         $publishedTime: new Date('2023-03-15T08:06:34.738Z'),
         $modifiedTime: undefined as Nullable<Date>,
         // Constants,
@@ -37,7 +37,7 @@ function page404Factory (storeId?: Nullable<StoreIdentifier>) {
     actions: {
       /* @ts-ignore: to allow override in your custom file */
       async retourALaccueilClick () {
-        await navigateTo({ path: `/` })
+        await navigateTo({ path: '/' })
       },
       /* @ts-ignore: to allow override in your custom file */
       getStoreInstance (storeId?: Nullable<StoreIdentifier>) {

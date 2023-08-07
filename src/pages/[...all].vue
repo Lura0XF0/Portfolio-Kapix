@@ -62,8 +62,8 @@
 </template>
 
 <script setup lang="ts">
-import { page404 } from './Page404/store'
 import { generateMeta, syncPageStore } from 'kapix-components-vue3'
+import { page404 } from './Page404/store'
 import { appDataStore } from '~/stores'
 import './Page404/style.scss'
 import './Page404/style.custom.scss'

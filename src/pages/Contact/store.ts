@@ -1,7 +1,7 @@
-import contactStoreCustom from './store.custom'
-import type { CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier, KaElementMap } from 'kapix-components-vue3'
+import type { CustomStoreImplementationOptions, KaElementMap, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
 import { defineStore } from 'pinia'
-import { kapixContext, textToClipboard, useToast, initAliveStoreIds, remove } from 'kapix-components-vue3'
+import { initAliveStoreIds, kapixContext, remove, textToClipboard, useToast } from 'kapix-components-vue3'
+import contactStoreCustom from './store.custom'
 import { $translate } from '~/modules/i18n'
 
 const storeName = 'contact'
@@ -20,8 +20,8 @@ function contactFactory (storeId?: Nullable<StoreIdentifier>) {
         $router: kapixContext.isClient ? kapixContext.$router : undefined,
         $route: kapixContext.isClient ? kapixContext.$route : undefined,
         // Page info,
-        $title: $translate('contact.title', `Contact`),
-        $description: $translate('contact.description', ``),
+        $title: $translate('contact.title', 'Contact'),
+        $description: $translate('contact.description', ''),
         $publishedTime: new Date('2023-08-02T14:21:24.310Z'),
         $modifiedTime: new Date('2023-08-04T07:49:15.055Z'),
         // Constants,
@@ -37,23 +37,23 @@ function contactFactory (storeId?: Nullable<StoreIdentifier>) {
     actions: {
       /* @ts-ignore: to allow override in your custom file */
       async icon1Click () {
-        await textToClipboard(`maxime.lubrano@hotmail.fr`)
-        useToast().info(`Email Copiée !`)
+        await textToClipboard('maxime.lubrano@hotmail.fr')
+        useToast().info('Email Copiée !')
       },
       /* @ts-ignore: to allow override in your custom file */
       async icon3Click () {
-        await textToClipboard(`06 52 23 59 88`)
-        useToast().info(`Téléphone Copiée !`)
+        await textToClipboard('06 52 23 59 88')
+        useToast().info('Téléphone Copiée !')
       },
       /* @ts-ignore: to allow override in your custom file */
       async icon5Click () {
-        await textToClipboard(`maxime-lubrano-66b828263`)
-        useToast().info(`LinkedIn Copiée !`)
+        await textToClipboard('maxime-lubrano-66b828263')
+        useToast().info('LinkedIn Copiée !')
       },
       /* @ts-ignore: to allow override in your custom file */
       async icon7Click () {
-        await textToClipboard(`MadFire07`)
-        useToast().info(`Github Copiée !`)
+        await textToClipboard('MadFire07')
+        useToast().info('Github Copiée !')
       },
       /* @ts-ignore: to allow override in your custom file */
       getStoreInstance (storeId?: Nullable<StoreIdentifier>) {

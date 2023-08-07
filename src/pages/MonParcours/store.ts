@@ -1,7 +1,7 @@
-import monParcoursStoreCustom from './store.custom'
-import type { CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier, KaElementMap } from 'kapix-components-vue3'
+import type { CustomStoreImplementationOptions, KaElementMap, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
 import { defineStore } from 'pinia'
-import { kapixContext, navigateTo, initAliveStoreIds, remove } from 'kapix-components-vue3'
+import { initAliveStoreIds, kapixContext, navigateTo, remove } from 'kapix-components-vue3'
+import monParcoursStoreCustom from './store.custom'
 import { $translate } from '~/modules/i18n'
 
 const storeName = 'monParcours'
@@ -20,18 +20,18 @@ function monParcoursFactory (storeId?: Nullable<StoreIdentifier>) {
         $router: kapixContext.isClient ? kapixContext.$router : undefined,
         $route: kapixContext.isClient ? kapixContext.$route : undefined,
         // Page info,
-        $title: $translate('mon-parcours.title', `Mon Parcours`),
-        $description: $translate('mon-parcours.description', ``),
+        $title: $translate('mon-parcours.title', 'Mon Parcours'),
+        $description: $translate('mon-parcours.description', ''),
         $publishedTime: new Date('2023-03-15T08:06:34.738Z'),
         $modifiedTime: new Date('2023-08-07T08:27:41.810Z'),
         // Constants,
         $constants: {},
         // Data,
         $data: {
-          logo: `https://ucarecdn.com/a9722564-ba5a-47c3-964f-302975d7ec52/brand-image (1).svg`,
-          onglet1: `Nos services` as Nullable<string>,
-          tab2: `Nos réalisations` as Nullable<string>,
-          tab3: `Nos engagements` as Nullable<string>,
+          logo: 'https://ucarecdn.com/a9722564-ba5a-47c3-964f-302975d7ec52/brand-image (1).svg',
+          onglet1: 'Nos services' as Nullable<string>,
+          tab2: 'Nos réalisations' as Nullable<string>,
+          tab3: 'Nos engagements' as Nullable<string>,
           tab4: undefined as Nullable<string>,
           tab5: undefined as Nullable<string>
         },
@@ -46,8 +46,8 @@ function monParcoursFactory (storeId?: Nullable<StoreIdentifier>) {
       /* @ts-ignore: to allow override in your custom file */
       async enSavoirPlusClick () {
         await navigateTo({
-          name: `Blog`,
-          query: { [`blog-selector`]: `Kapix` }
+          name: 'Blog',
+          query: { 'blog-selector': 'Kapix' }
         })
       },
       /* @ts-ignore: to allow override in your custom file */

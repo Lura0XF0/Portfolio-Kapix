@@ -1,7 +1,7 @@
-import boutonComponentStoreCustom from './store.custom'
 import { defineStore } from 'pinia'
-import type { KaElementClickEvent, CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier, KaElementMap } from 'kapix-components-vue3'
-import { kapixContext, NOOP, useToast, initAliveStoreIds, remove } from 'kapix-components-vue3'
+import type { CustomStoreImplementationOptions, KaElementClickEvent, KaElementMap, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
+import { NOOP, initAliveStoreIds, kapixContext, remove, useToast } from 'kapix-components-vue3'
+import boutonComponentStoreCustom from './store.custom'
 import Contact from '~/pages/Contact/index.vue'
 
 const storeName = 'boutonComponent'
@@ -32,8 +32,8 @@ function boutonComponentFactory (storeId?: Nullable<StoreIdentifier>) {
         },
         // Data,
         $data: {
-          actionName: `Contactez-moi`,
-          choice: `Choix 1`,
+          actionName: 'Contactez-moi',
+          choice: 'Choix 1',
           picture: undefined as Nullable<string>
         },
         ...(customImplement.state && customImplement.state())
@@ -75,7 +75,7 @@ function boutonComponentFactory (storeId?: Nullable<StoreIdentifier>) {
     actions: {
       /* @ts-ignore: to allow override in your custom file */
       boutonClick () {
-        useToast().info(`Définir l'action !`)
+        useToast().info('Définir l\'action !')
       },
       /* @ts-ignore: to allow override in your custom file */
       boutonClickWhenSelected (event: KaElementClickEvent) {

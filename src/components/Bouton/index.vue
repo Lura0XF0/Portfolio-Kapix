@@ -36,8 +36,8 @@
 </template>
 
 <script setup lang="ts">
-import { boutonComponent } from './store'
 import { syncComponentStore } from 'kapix-components-vue3'
+import { boutonComponent } from './store'
 import { appDataStore } from '~/stores'
 import './style.scss'
 import './style.custom.scss'
@@ -51,7 +51,7 @@ const component = boutonComponent()
 const componentInstance = component.newStoreInstance()
 const props = withDefaults(defineProps<{
   actionName: string
-  choice: `Choix 1` | `Choix 2`
+  choice: 'Choix 1' | 'Choix 2'
   picture?: Nullable<string>
   instanceClass?: Nullable<string>
   options?: Nullable<KeyValuePair>
@@ -59,9 +59,9 @@ const props = withDefaults(defineProps<{
   xs?: Nullable<KeyValuePair>
   inner?: Nullable<boolean>
 }>(), {
-  actionName: `Contactez-moi`,
-  choice: `Choix 1`,
-  picture: `https://ucarecdn.com/6886207a-7df6-4273-af53-f1225e4195d3/pencil (2).svg`,
+  actionName: 'Contactez-moi',
+  choice: 'Choix 1',
+  picture: 'https://ucarecdn.com/6886207a-7df6-4273-af53-f1225e4195d3/pencil (2).svg',
   instanceClass: undefined,
   options: undefined,
   sm: undefined,

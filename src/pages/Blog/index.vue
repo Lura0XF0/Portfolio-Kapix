@@ -281,8 +281,8 @@
 </template>
 
 <script setup lang="ts">
-import { blog } from './store'
 import { generateMeta, syncPageStore } from 'kapix-components-vue3'
+import { blog } from './store'
 import HautDePage from '~/components/HautDePage/index.vue'
 import { appDataStore } from '~/stores'
 import './style.scss'

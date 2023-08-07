@@ -1,7 +1,7 @@
-import cvStoreCustom from './store.custom'
 import { defineStore } from 'pinia'
-import type { KaElementClickEvent, CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier, KaElementMap } from 'kapix-components-vue3'
-import { kapixContext, initAliveStoreIds, remove } from 'kapix-components-vue3'
+import type { CustomStoreImplementationOptions, KaElementClickEvent, KaElementMap, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
+import { initAliveStoreIds, kapixContext, remove } from 'kapix-components-vue3'
+import cvStoreCustom from './store.custom'
 import { $translate } from '~/modules/i18n'
 
 const storeName = 'cv'
@@ -20,8 +20,8 @@ function cvFactory (storeId?: Nullable<StoreIdentifier>) {
         $router: kapixContext.isClient ? kapixContext.$router : undefined,
         $route: kapixContext.isClient ? kapixContext.$route : undefined,
         // Page info,
-        $title: $translate('cv.title', `CV`),
-        $description: $translate('cv.description', ``),
+        $title: $translate('cv.title', 'CV'),
+        $description: $translate('cv.description', ''),
         $publishedTime: new Date('2023-08-02T09:31:43.649Z'),
         $modifiedTime: new Date('2023-08-03T16:04:41.310Z'),
         // Constants,

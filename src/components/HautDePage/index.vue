@@ -118,8 +118,8 @@
 </template>
 
 <script setup lang="ts">
-import { hautDePageComponent } from './store'
 import { syncComponentStore } from 'kapix-components-vue3'
+import { hautDePageComponent } from './store'
 import Bouton from '~/components/Bouton/index.vue'
 import { appDataStore } from '~/stores'
 import './style.scss'
@@ -145,10 +145,10 @@ const props = withDefaults(defineProps<{
   xs?: Nullable<KeyValuePair>
   inner?: Nullable<boolean>
 }>(), {
-  logo: `https://ucarecdn.com/a9722564-ba5a-47c3-964f-302975d7ec52/brand-image (1).svg`,
-  onglet1: `Nos services`,
-  tab2: `Nos réalisations`,
-  tab3: `Nos engagements`,
+  logo: 'https://ucarecdn.com/a9722564-ba5a-47c3-964f-302975d7ec52/brand-image (1).svg',
+  onglet1: 'Nos services',
+  tab2: 'Nos réalisations',
+  tab3: 'Nos engagements',
   tab4: undefined,
   tab5: undefined,
   instanceClass: undefined,

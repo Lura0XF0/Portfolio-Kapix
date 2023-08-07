@@ -1,7 +1,7 @@
-import hautDePageComponentStoreCustom from './store.custom'
 import { defineStore } from 'pinia'
-import type { KaElementClickEvent, CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier, KaElementMap } from 'kapix-components-vue3'
-import { kapixContext, NOOP, navigateTo, useToast, initAliveStoreIds, remove } from 'kapix-components-vue3'
+import type { CustomStoreImplementationOptions, KaElementClickEvent, KaElementMap, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
+import { NOOP, initAliveStoreIds, kapixContext, navigateTo, remove, useToast } from 'kapix-components-vue3'
+import hautDePageComponentStoreCustom from './store.custom'
 import Contact from '~/pages/Contact/index.vue'
 import Cv from '~/pages/Cv/index.vue'
 import HautDePage from '~/pages/HautDePage/index.vue'
@@ -27,7 +27,7 @@ function hautDePageComponentFactory (storeId?: Nullable<StoreIdentifier>) {
         $constants: {},
         // Data,
         $data: {
-          logo: `https://ucarecdn.com/a9722564-ba5a-47c3-964f-302975d7ec52/brand-image (1).svg`,
+          logo: 'https://ucarecdn.com/a9722564-ba5a-47c3-964f-302975d7ec52/brand-image (1).svg',
           onglet1: undefined as Nullable<string>,
           tab2: undefined as Nullable<string>,
           tab3: undefined as Nullable<string>,
@@ -103,34 +103,34 @@ function hautDePageComponentFactory (storeId?: Nullable<StoreIdentifier>) {
     actions: {
       /* @ts-ignore: to allow override in your custom file */
       async logoClick (event: KaElementClickEvent) {
-        await navigateTo({ path: `/` })
+        await navigateTo({ path: '/' })
         await event.vm?.scrollToStart()
       },
       /* @ts-ignore: to allow override in your custom file */
       async onglet1Click (event: KaElementClickEvent) {
-        await navigateTo({ path: `/` })
+        await navigateTo({ path: '/' })
         await event.vm?.scrollToStart()
       },
       /* @ts-ignore: to allow override in your custom file */
       async onglet2Click (event: KaElementClickEvent) {
-        await navigateTo({ name: `MonParcours` })
+        await navigateTo({ name: 'MonParcours' })
         await event.vm?.scrollToStart()
       },
       /* @ts-ignore: to allow override in your custom file */
       async onglet3Click (event: KaElementClickEvent) {
-        await navigateTo({ name: `Blog` })
+        await navigateTo({ name: 'Blog' })
         await event.vm?.scrollToStart()
       },
       /* @ts-ignore: to allow override in your custom file */
       onglet4Click (event: KaElementClickEvent) {
         event.vm?.showTooltip(Cv, {
-          options: { placement: `full-screen` },
-          id: `Cv`
+          options: { placement: 'full-screen' },
+          id: 'Cv'
         })
       },
       /* @ts-ignore: to allow override in your custom file */
       onglet5Click () {
-        useToast().info(`Définir l'action !`)
+        useToast().info('Définir l\'action !')
       },
       /* @ts-ignore: to allow override in your custom file */
       boutonClick (event: KaElementClickEvent) {
@@ -151,8 +151,8 @@ function hautDePageComponentFactory (storeId?: Nullable<StoreIdentifier>) {
             tab4: this.$tab4.value,
             tab5: this.$tab5.value
           },
-          options: { placement: `full-screen` },
-          id: `HautDePage`
+          options: { placement: 'full-screen' },
+          id: 'HautDePage'
         })
       },
       /* @ts-ignore: to allow override in your custom file */

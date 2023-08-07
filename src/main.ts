@@ -51,4 +51,3 @@ export async function includedRoutes (paths: string[], routes: Readonly<RouteRec
     ...(newPaths || [])
   ]
 }
-  

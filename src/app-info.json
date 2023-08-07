@@ -18,7 +18,7 @@
   ],
   "pwa": {
     "name": "Portfolio Maxime Lubrano",
-    "shortName": "Portfolio",
+    "shortName": "Portfolio Maxime Lubrano",
     "startUrl": "./",
     "themeColor": "#ffffff",
     "backgroundColor": "#ffffff",
@@ -55,8 +55,8 @@
     ]
   },
   "website": {
-    "name": "Portfolio Maxime Lubrano",
-    "description": "Bienvenue sur mon portfolio",
+    "name": "Portfolio",
+    "description": "Découvrez mon portfolio de compétences en cybersécurité. Je suis Maxime Lubrano, passionné par la protection des données et la sécurité en ligne. Explorez mes réalisations et projets dans le domaine de la cybersécurité.",
     "image": "https://ucarecdn.com/2b70f1c5-bb14-476a-a2bc-d2bd8abb6f10/",
     "domain": "maximelubrano.fr"
   },

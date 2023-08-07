@@ -199,8 +199,8 @@
 </template>
 
 <script setup lang="ts">
-import { portfolio } from './Index/store'
 import { generateMeta, syncPageStore } from 'kapix-components-vue3'
+import { portfolio } from './Index/store'
 import HautDePage from '~/components/HautDePage/index.vue'
 import { appDataStore } from '~/stores'
 import './Index/style.scss'

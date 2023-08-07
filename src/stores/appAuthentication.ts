@@ -1,7 +1,7 @@
-import appAuthenticationStoreStoreCustom from './appAuthentication.custom'
 import type { CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
 import { initAliveStoreIds } from 'kapix-components-vue3'
 import { defineStore } from 'pinia'
+import appAuthenticationStoreStoreCustom from './appAuthentication.custom'
 
 const storeName = 'appAuthentication'
 const customImplement: CustomStoreImplementationOptions = appAuthenticationStoreStoreCustom.options
@@ -20,15 +20,15 @@ function appAuthenticationStoreFactory (storeId?: Nullable<StoreIdentifier>) {
     },
     getters: {
       /* @ts-ignore: to allow override in your custom file */
-      isAuthenticated:(state) => {
+      isAuthenticated: (state) => {
         return !!state.user
       },
       /* @ts-ignore: to allow override in your custom file */
-      userEmail:(state) => {
+      userEmail: (state) => {
         return state.user?.email
       },
       /* @ts-ignore: to allow override in your custom file */
-      userName:(state) => {
+      userName: (state) => {
         return state.user?.userName
       },
       ...customImplement.getters

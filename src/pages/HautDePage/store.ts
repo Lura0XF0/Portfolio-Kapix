@@ -1,7 +1,7 @@
-import hautDePageStoreCustom from './store.custom'
 import { defineStore } from 'pinia'
-import type { KaElementClickEvent, CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier, KaElementMap } from 'kapix-components-vue3'
-import { kapixContext, navigateTo, useToast, initAliveStoreIds, remove } from 'kapix-components-vue3'
+import type { CustomStoreImplementationOptions, KaElementClickEvent, KaElementMap, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
+import { initAliveStoreIds, kapixContext, navigateTo, remove, useToast } from 'kapix-components-vue3'
+import hautDePageStoreCustom from './store.custom'
 import Cv from '~/pages/Cv/index.vue'
 import { $translate } from '~/modules/i18n'
 
@@ -21,17 +21,17 @@ function hautDePageFactory (storeId?: Nullable<StoreIdentifier>) {
         $router: kapixContext.isClient ? kapixContext.$router : undefined,
         $route: kapixContext.isClient ? kapixContext.$route : undefined,
         // Page info,
-        $title: $translate('haut-de-page.title', `Haut de page`),
-        $description: $translate('haut-de-page.description', ``),
+        $title: $translate('haut-de-page.title', 'Haut de page'),
+        $description: $translate('haut-de-page.description', ''),
         $publishedTime: new Date('2023-05-11T10:17:14.532Z'),
         $modifiedTime: new Date('2023-08-03T14:25:27.861Z'),
         // Constants,
         $constants: {},
         // Data,
         $data: {
-          tab1: `Nos services` as Nullable<string>,
-          tab2: `Nos réalisations` as Nullable<string>,
-          tab3: `Nos engagements` as Nullable<string>,
+          tab1: 'Nos services' as Nullable<string>,
+          tab2: 'Nos réalisations' as Nullable<string>,
+          tab3: 'Nos engagements' as Nullable<string>,
           tab4: undefined as Nullable<string>,
           tab5: undefined as Nullable<string>
         },
@@ -49,26 +49,26 @@ function hautDePageFactory (storeId?: Nullable<StoreIdentifier>) {
       },
       /* @ts-ignore: to allow override in your custom file */
       async onglet1Click () {
-        await navigateTo({ path: `/` })
+        await navigateTo({ path: '/' })
       },
       /* @ts-ignore: to allow override in your custom file */
       async onglet2Click () {
-        await navigateTo({ name: `MonParcours` })
+        await navigateTo({ name: 'MonParcours' })
       },
       /* @ts-ignore: to allow override in your custom file */
       async onglet3Click () {
-        await navigateTo({ name: `Blog` })
+        await navigateTo({ name: 'Blog' })
       },
       /* @ts-ignore: to allow override in your custom file */
       onglet4Click (event: KaElementClickEvent) {
         event.vm?.showTooltip(Cv, {
-          options: { placement: `full-screen` },
-          id: `Cv`
+          options: { placement: 'full-screen' },
+          id: 'Cv'
         })
       },
       /* @ts-ignore: to allow override in your custom file */
       onglet5Click () {
-        useToast().info(`Définir l'action !`)
+        useToast().info('Définir l\'action !')
       },
       /* @ts-ignore: to allow override in your custom file */
       fondNoirClick (event: KaElementClickEvent) {

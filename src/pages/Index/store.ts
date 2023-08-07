@@ -1,7 +1,7 @@
-import portfolioStoreCustom from './store.custom'
-import type { CustomStoreImplementationOptions, MergeCustomStore, StoreIdentifier, KaElementMap } from 'kapix-components-vue3'
+import type { CustomStoreImplementationOptions, KaElementMap, MergeCustomStore, StoreIdentifier } from 'kapix-components-vue3'
 import { defineStore } from 'pinia'
-import { kapixContext, initAliveStoreIds, remove } from 'kapix-components-vue3'
+import { initAliveStoreIds, kapixContext, remove } from 'kapix-components-vue3'
+import portfolioStoreCustom from './store.custom'
 import { $translate } from '~/modules/i18n'
 
 const storeName = 'portfolio'
@@ -20,18 +20,18 @@ function portfolioFactory (storeId?: Nullable<StoreIdentifier>) {
         $router: kapixContext.isClient ? kapixContext.$router : undefined,
         $route: kapixContext.isClient ? kapixContext.$route : undefined,
         // Page info,
-        $title: $translate('portfolio.title', `Portfolio`),
-        $description: $translate('portfolio.description', ``),
+        $title: $translate('portfolio.title', 'Portfolio de Maxime Lubrano : Expert en Cybersécurité | Découvrez mes compétences et réalisations'),
+        $description: $translate('portfolio.description', 'Découvrez mon portfolio de compétences en cybersécurité. Je suis Maxime Lubrano, passionné par la protection des données et la sécurité en ligne. Explorez mes réalisations et projets dans le domaine de la cybersécurité.'),
         $publishedTime: new Date('2023-03-15T08:06:34.738Z'),
         $modifiedTime: new Date('2023-08-04T07:51:45.009Z'),
         // Constants,
         $constants: {},
         // Data,
         $data: {
-          logo: `https://ucarecdn.com/a9722564-ba5a-47c3-964f-302975d7ec52/brand-image (1).svg`,
-          onglet1: `Nos services` as Nullable<string>,
-          tab2: `Nos réalisations` as Nullable<string>,
-          tab3: `Nos engagements` as Nullable<string>,
+          logo: 'https://ucarecdn.com/a9722564-ba5a-47c3-964f-302975d7ec52/brand-image (1).svg',
+          onglet1: 'Nos services' as Nullable<string>,
+          tab2: 'Nos réalisations' as Nullable<string>,
+          tab3: 'Nos engagements' as Nullable<string>,
           tab4: undefined as Nullable<string>,
           tab5: undefined as Nullable<string>
         },

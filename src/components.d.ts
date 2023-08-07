@@ -7,6 +7,8 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Bouton: typeof import('./components/Bouton/index.vue')['default']
+    HautDePage: typeof import('./components/HautDePage/index.vue')['default']
     KaAmChart: typeof import('./components/Elements/KaAmChart.vue')['default']
     KaAutoCompleteInput: typeof import('./components/Inputs/KaAutoCompleteInput.vue')['default']
     KaAvatar: typeof import('./components/Elements/KaAvatar.vue')['default']
@@ -42,6 +44,8 @@ declare module '@vue/runtime-core' {
     KaNumberInput: typeof import('./components/Inputs/KaNumberInput.vue')['default']
     KaPageRouter: typeof import('./components/Elements/KaPageRouter.vue')['default']
     KaPasswordInput: typeof import('./components/Inputs/KaPasswordInput.vue')['default']
+    KaPdf: typeof import('./components/Elements/KaPdf.vue')['default']
+    KapixPdf: typeof import('./components/Elements/KapixPdf.vue')['default']
     KaRatingInput: typeof import('./components/Inputs/KaRatingInput.vue')['default']
     KaSelectInput: typeof import('./components/Inputs/KaSelectInput.vue')['default']
     KaSelectMultipleInput: typeof import('./components/Inputs/KaSelectMultipleInput.vue')['default']
@@ -63,7 +67,6 @@ declare module '@vue/runtime-core' {
     KaYesNoInput: typeof import('./components/Inputs/KaYesNoInput.vue')['default']
     KaYoutube: typeof import('./components/Elements/KaYoutube.vue')['default']
     KaYoutubeInput: typeof import('./components/Inputs/KaYoutubeInput.vue')['default']
-    ReloadPrompt: typeof import('./components/ReloadPrompt.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

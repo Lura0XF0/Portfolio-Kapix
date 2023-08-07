@@ -82,8 +82,8 @@
 </template>
 
 <script setup lang="ts">
-import { hautDePage } from './store'
 import { syncPageStore } from 'kapix-components-vue3'
+import { hautDePage } from './store'
 import Bouton from '~/components/Bouton/index.vue'
 import { appDataStore } from '~/stores'
 import './style.scss'
@@ -102,9 +102,9 @@ const props = withDefaults(defineProps<{
   tab4?: Nullable<string>
   tab5?: Nullable<string>
 }>(), {
-  tab1: `Nos services`,
-  tab2: `Nos réalisations`,
-  tab3: `Nos engagements`,
+  tab1: 'Nos services',
+  tab2: 'Nos réalisations',
+  tab3: 'Nos engagements',
   tab4: undefined,
   tab5: undefined
 })

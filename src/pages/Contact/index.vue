@@ -69,8 +69,8 @@
 </template>
 
 <script setup lang="ts">
-import { contact } from './store'
 import { syncPageStore } from 'kapix-components-vue3'
+import { contact } from './store'
 import { appDataStore } from '~/stores'
 import './style.scss'
 import './style.custom.scss'
