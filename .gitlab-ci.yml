@@ -1,0 +1,41 @@
+#   uses the latest alpine CT image because that's what I like, it's lightweight, fast, simple
+image: node:18.14.2
+# And to cache them as well.
+cache:
+  key:
+    files:
+      - pnpm-lock.yaml
+  paths:
+    - .pnpm-store
+    - node_modules/
+
+stages: # List of stages for jobs, and their order of execution
+  - generate-kapix-lock
+
+# create the job called deploy
+deploy:
+#   which is run in the "deploy" stage
+#     "deploy" stage is one of the pre-defined stages
+#     docs: https://docs.gitlab.com/ee/ci/yaml/#stages
+  stage: generate-kapix-lock
+#   We'll define stuff in ENVs here, but you can always use the CI secrets. I'll just put them here so you get the idea
+#     docs: https://docs.gitlab.com/ee/ci/variables/
+  variables:
+    TOKEN: 'TOKEN here'
+    KAPIX_VERSION: "KAPIX_VERSION here"
+    KAPIX_COMPONENT_VERSION: "@latest"
+    KAPIX_CI_VERSION: "@latest"
+    UPLOADCARE_URL: "UPLOADCARE_URL here"
+  script:
+    - echo "Starting Kapix GITLAB CI ..."
+    - node --version
+    - npm --version
+    - npm install -g pnpm
+    - pnpm install
+    - pnpm upgrade kapix-components-vue3$KAPIX_COMPONENT_VERSION
+    - pnpm install kapix-github-ci$KAPIX_CI_VERSION -D
+    - node ./node_modules/kapix-github-ci/dist/index.js kapixVersion=$KAPIX_VERSION kapixCiVersion=$KAPIX_CI_VERSION kapixComponentVersion=$KAPIX_COMPONENT_VERSION uploadcareUrl=$UPLOADCARE_URL ciPlatform=gitlab ciBranch=$CI_COMMIT_BRANCH ciToken=$TOKEN ciTriggerType=$CI_PIPELINE_SOURCE
+  when: manual
+  rules:
+    - if: "$CI_PIPELINE_SOURCE == 'trigger'"
+      when: always

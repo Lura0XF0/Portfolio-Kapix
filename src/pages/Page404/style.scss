@@ -1,0 +1,82 @@
+// Page 404
+.page-404--p1 {
+  &.outer-style {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 0;
+    min-width: 0;
+    z-index: 998;
+  }
+  &.inner-style {
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+// Page 404 > Conteneur
+.conteneur--p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    align-items: end;
+    padding: 0 0 26px 0;
+    position: absolute;
+    z-index: 1000;
+    inset: auto auto 0px calc(50% + 0px);
+    transform: translateX(-50%);
+  }
+  &.inner-style {
+    max-height: 150px;
+    height: 100%;
+  }
+  &.scroller-style {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+// Page 404 > Conteneur > Texte
+.page-introuvable--p1 {
+  &.outer-style {
+    width: 100%;
+    min-width: 0;
+    justify-content: center;
+    z-index: 1000;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    overflow: hidden;
+    color: #6a6a6aff;
+    font-size: 35px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 31px 15px 15px 15px;
+  }
+}
+// Page 404 > Conteneur > Bouton
+.retour-a-laccueil--p1 {
+  &.outer-style {
+    justify-content: center;
+    padding: 5px;
+    z-index: 999;
+  }
+  &.inner-style {
+    width: auto;
+  }
+  &.property-style {
+    color: #000000ff;
+    background-color: #ffc108ff;
+    border-radius: 4px;
+    overflow: hidden;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+  }
+}

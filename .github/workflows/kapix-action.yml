@@ -1,0 +1,35 @@
+name: "Kapix action"
+on:
+  workflow_dispatch:
+    inputs:
+      kapixVersion:
+        description: "kapix Version"
+        required: true
+        type: string
+      kapixComponentVersion:
+        description: "@latest"
+        required: true
+        type: string
+      kapixCiVersion:
+        description: "@latest"
+        required: false
+        type: string
+      uploadcareUrl:
+        description: "UploadCare URL's JSON"
+        required: true
+        type: string
+jobs:
+  kapix-actions-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: run-kapix-github-ci
+        run: |
+          echo "Starting Kapix GITHUB CI ..."
+          node --version
+          npm --version
+          npm install -g pnpm
+          pnpm install
+          pnpm upgrade kapix-components-vue3${{ github.event.inputs.kapixComponentVersion }}
+          pnpm install kapix-github-ci${{ github.event.inputs.kapixCiVersion }}
+          node ./node_modules/kapix-github-ci/dist/index.js kapixVersion=${{ github.event.inputs.kapixVersion }} kapixCiVersion=${{ github.event.inputs.kapixCiVersion }} kapixComponentVersion=${{ github.event.inputs.kapixComponentVersion }} uploadcareUrl=${{ github.event.inputs.uploadcareUrl }} ciBranch=${{ github.ref_name }} platform=github

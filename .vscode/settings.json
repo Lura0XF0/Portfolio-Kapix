@@ -1,0 +1,53 @@
+{
+  "cSpell.words": [
+    "Kapix"
+  ],
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": "locales",
+  "i18n-ally.sortKeys": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.enable": false,
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.formatOnSave": false,
+  "workbench.colorCustomizations": {
+    "activityBar.foreground": "#000000",
+    "activityBar.activeBorder": "#ffc107",
+    "activityBar.background": "#6ce0d6",
+    "activityBar.activeForeground": "#000000",
+    "activityBar.activeBackground": "#6ce0d6",
+    "titleBar.activeForeground": "#000000",
+    "titleBar.activeBackground": "#6ce0d6"
+  },
+  "files.exclude": {
+    "**/node_modules": false,
+    "tsconfig.json": false,
+    "pnpm-lock.yaml": false,
+    ".gitignore": false,
+    ".eslintignore": false,
+    ".eslintrc.js": false,
+    ".babelrc": false,
+    ".editorconfig": false,
+    ".postcssrc.js": false,
+    ".jshintrc": false,
+    "yarn.lock": false,
+    ".npmrc": false,
+    "build": true,
+    "config": true
+  },
+  "files.watcherExclude": {
+    "dist": true,
+    "report": true,
+    "cypress": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.hg/store/**": true
+  },
+  "i18n-ally.sourceLanguage": "fr-FR"
+}
