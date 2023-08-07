@@ -23,7 +23,7 @@ function blogFactory (storeId?: Nullable<StoreIdentifier>) {
         $title: $translate('blog.title', 'Blog'),
         $description: $translate('blog.description', ''),
         $publishedTime: new Date('2023-03-15T08:06:34.738Z'),
-        $modifiedTime: new Date('2023-08-04T07:44:18.581Z'),
+        $modifiedTime: new Date('2023-08-07T12:22:50.301Z'),
         // Constants,
         $constants: {},
         // Data,
@@ -57,6 +57,11 @@ function blogFactory (storeId?: Nullable<StoreIdentifier>) {
       /* @ts-ignore: to allow override in your custom file */
       container3Click () {
         this.$data.blogSelector = 'Kapix'
+      },
+      /* @ts-ignore: to allow override in your custom file */
+      container3ClickWhenSelected () {
+        this.$data.blogSelector = 'Kapix'
+        this.$data.blogSelector = 'Rien'
       },
       /* @ts-ignore: to allow override in your custom file */
       container6Click () {

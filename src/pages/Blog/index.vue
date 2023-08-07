@@ -47,6 +47,7 @@
               click: page.container3Click,
               $state: { selected: page.$data.blogSelector === `Kapix` }
             }"
+            :selected="{ click: page.container3ClickWhenSelected }"
             inner>
             <ka-image
               code="image"
