@@ -15,7 +15,7 @@
           "type": "component",
           "hash": "d473a6dd133be34edd6d8a62ff0b44108c915616",
           "postLintHash": "a2b31e200242f7213a5049620210bb90151c9b6d",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.345Z"
         },
         {
           "id": "8xYk6NKf6KzBo9tsg8fxPf",
@@ -30,7 +30,7 @@
           "type": "store",
           "hash": "ee428b8a07cc0fc661295185c7a9c03c8abcd4af",
           "postLintHash": "2d592ce59e07833d2650c88489a641008c3b36ea",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.345Z"
         },
         {
           "id": "8xYk6NKf6KzBo9tsg8fxPf",
@@ -45,7 +45,7 @@
           "type": "style",
           "hash": "64b90675f7d7543c73f00c71f11659660d2d6db5",
           "postLintHash": "64b90675f7d7543c73f00c71f11659660d2d6db5",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.345Z"
         },
         {
           "id": "dZZQbtVoQ68uBVanqcwxUt",
@@ -54,7 +54,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "dZZQbtVoQ68uBVanqcwxUt",
@@ -63,7 +63,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "dZZQbtVoQ68uBVanqcwxUt",
@@ -72,7 +72,7 @@
           "type": "page",
           "hash": "9cfcc329f6860cf47e31f9546b2d6ed58e066ac6",
           "postLintHash": "da568d959e053ea28548ea1cd9445fb1d4403477",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "dZZQbtVoQ68uBVanqcwxUt",
@@ -87,7 +87,7 @@
           "type": "store",
           "hash": "1a52ed9292f4814e0a6c1fca6377b9b62f02a52f",
           "postLintHash": "28194f7d92195b4ab56b12289956e6012e8b623f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "dZZQbtVoQ68uBVanqcwxUt",
@@ -102,7 +102,7 @@
           "type": "style",
           "hash": "dc9093c61e6fb830138419027821a928dcfeb7a0",
           "postLintHash": "dc9093c61e6fb830138419027821a928dcfeb7a0",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ewhBRMcu3MNtzNgxWsy4xY",
@@ -111,7 +111,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ewhBRMcu3MNtzNgxWsy4xY",
@@ -120,7 +120,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ewhBRMcu3MNtzNgxWsy4xY",
@@ -129,7 +129,7 @@
           "type": "page",
           "hash": "37778eb1ba44510f791021ae42bbdbcad554fe2d",
           "postLintHash": "fdf6628fb6094e6403890065b0e87b674b715293",
-          "lastModified": "2023-08-07T12:33:09.657Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ewhBRMcu3MNtzNgxWsy4xY",
@@ -144,7 +144,7 @@
           "type": "store",
           "hash": "da8fee87877e6ce43ea188fabc42caa2a7b47ce0",
           "postLintHash": "cd4a53eb04680b2417cb4f20e23c71a5e640a453",
-          "lastModified": "2023-08-07T12:33:09.657Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ewhBRMcu3MNtzNgxWsy4xY",
@@ -157,9 +157,9 @@
           "id": "ewhBRMcu3MNtzNgxWsy4xY",
           "path": "src/pages/Blog/style.scss",
           "type": "style",
-          "hash": "f831f3a66ca907f0eb78a43e99fd972425d6ebe2",
-          "postLintHash": "f831f3a66ca907f0eb78a43e99fd972425d6ebe2",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "hash": "a03d765f5e514d18cbe052e3355e2cd7ea13a159",
+          "postLintHash": "a03d765f5e514d18cbe052e3355e2cd7ea13a159",
+          "lastModified": "2023-08-07T13:51:24.538Z"
         },
         {
           "id": "iMBUuXs9bVnVL6MeWWh5k8",
@@ -168,7 +168,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "iMBUuXs9bVnVL6MeWWh5k8",
@@ -177,7 +177,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "iMBUuXs9bVnVL6MeWWh5k8",
@@ -186,7 +186,7 @@
           "type": "page",
           "hash": "6380474b973409c2a871d48f80f95f7d93b16730",
           "postLintHash": "35aa7ae5fa5f2d44ec64971957bfadfb4ea89c88",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "iMBUuXs9bVnVL6MeWWh5k8",
@@ -201,7 +201,7 @@
           "type": "store",
           "hash": "3bf45e3368b697d566cebd108f393d0d8243aa70",
           "postLintHash": "1c52ed86e6ee5615988926750b69f84078a5208d",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "iMBUuXs9bVnVL6MeWWh5k8",
@@ -216,7 +216,7 @@
           "type": "style",
           "hash": "c9c479a433f6d5b25d905972e73d8c0adb06b239",
           "postLintHash": "c9c479a433f6d5b25d905972e73d8c0adb06b239",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "mSW7ZWEFXiMEFv17jvDB89",
@@ -225,7 +225,7 @@
           "type": "page",
           "hash": "aaa08fa08be066c07f1b90cd3b3a2d2c139dcef5",
           "postLintHash": "aaa08fa08be066c07f1b90cd3b3a2d2c139dcef5",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "mSW7ZWEFXiMEFv17jvDB89",
@@ -234,7 +234,7 @@
           "type": "page",
           "hash": "eaa60bb70ea1b06f4d425288eb836b3f76a4e670",
           "postLintHash": "eaa60bb70ea1b06f4d425288eb836b3f76a4e670",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "mSW7ZWEFXiMEFv17jvDB89",
@@ -243,7 +243,7 @@
           "type": "page",
           "hash": "abd5fe1a413d94a6637dbf3a1a4d20d6932473ea",
           "postLintHash": "03d7142dad8c94332d17ddee3aeb233d9e1ef293",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "mSW7ZWEFXiMEFv17jvDB89",
@@ -258,7 +258,7 @@
           "type": "store",
           "hash": "e786eec33af691b513078fc674f84bc767adb745",
           "postLintHash": "ffa9fc1a4ffdbb1260a7216f756b7dfe7d2220d7",
-          "lastModified": "2023-08-07T12:33:09.657Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "mSW7ZWEFXiMEFv17jvDB89",
@@ -273,7 +273,7 @@
           "type": "style",
           "hash": "45c005677b38462742fbd12e53bfc5c8e8c3d7cb",
           "postLintHash": "45c005677b38462742fbd12e53bfc5c8e8c3d7cb",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "tBTcs7pekpmrQHtjUsaEgV",
@@ -282,7 +282,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "tBTcs7pekpmrQHtjUsaEgV",
@@ -291,7 +291,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "tBTcs7pekpmrQHtjUsaEgV",
@@ -300,7 +300,7 @@
           "type": "page",
           "hash": "5ce7c6d1442c504a903ae17756fcc3f01720a374",
           "postLintHash": "51fc27f256c9234a2ee710e1f9d355e47dcfd38d",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "tBTcs7pekpmrQHtjUsaEgV",
@@ -315,7 +315,7 @@
           "type": "store",
           "hash": "40fbccc0305a1081d52c63a48c44fc01c93f0608",
           "postLintHash": "ca432bfe4cab11b0046ecb482a223bf771c1ed00",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "tBTcs7pekpmrQHtjUsaEgV",
@@ -330,7 +330,7 @@
           "type": "style",
           "hash": "8a6f1518fdb934d274ca809dd0119267f28cc918",
           "postLintHash": "8a6f1518fdb934d274ca809dd0119267f28cc918",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "tMB7HRyJC9n7BB4A99AK7M",
@@ -338,7 +338,7 @@
           "type": "component",
           "hash": "b52b71303672964a7cdf07047701c6d4339f6867",
           "postLintHash": "3b3331dd3d3e9f5b359e8b1fcdceaaf46b839b15",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.345Z"
         },
         {
           "id": "tMB7HRyJC9n7BB4A99AK7M",
@@ -353,7 +353,7 @@
           "type": "store",
           "hash": "b84985c74c83aa565d36be9bc9860f26d618084f",
           "postLintHash": "c85e3a029d129e826bc0fd6810d11bcca43a6605",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.345Z"
         },
         {
           "id": "tMB7HRyJC9n7BB4A99AK7M",
@@ -368,7 +368,7 @@
           "type": "style",
           "hash": "765f248fe14e8d9f1c125bcb50c12d0355c002ed",
           "postLintHash": "765f248fe14e8d9f1c125bcb50c12d0355c002ed",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.345Z"
         },
         {
           "id": "ueGFE5czAEgAf4rx1KSeB6",
@@ -377,7 +377,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ueGFE5czAEgAf4rx1KSeB6",
@@ -386,7 +386,7 @@
           "type": "page",
           "hash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
           "postLintHash": "8a0b1bd0f681858ac65e79230709dafceedad50f",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ueGFE5czAEgAf4rx1KSeB6",
@@ -395,7 +395,7 @@
           "type": "page",
           "hash": "e2e718cc0c27aeb5af9e30295d8c01d6d162bda0",
           "postLintHash": "408238530a93cb0a08e71921d5c89334bef3ac59",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ueGFE5czAEgAf4rx1KSeB6",
@@ -410,7 +410,7 @@
           "type": "store",
           "hash": "13ae5817cc31d83af71377f3b7dc2af252cc0db5",
           "postLintHash": "b43337ad8c34ff37f71936e93f27bb4029526862",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "ueGFE5czAEgAf4rx1KSeB6",
@@ -425,7 +425,7 @@
           "type": "style",
           "hash": "b64ea51579945b35f7872330a8dd5fa0c775922b",
           "postLintHash": "b64ea51579945b35f7872330a8dd5fa0c775922b",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "xyTKFGvJ6A6xBoVcsu7gA8",
@@ -434,7 +434,7 @@
           "type": "page",
           "hash": "33ad2e959a9683b8b08e0e985d73e1a2e8b86f6e",
           "postLintHash": "7be18711915c5b85d6d6c66191633acb328b625d",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "xyTKFGvJ6A6xBoVcsu7gA8",
@@ -449,7 +449,7 @@
           "type": "store",
           "hash": "46f4405502de559913686397d9d4fcad1dd0b3cc",
           "postLintHash": "c5d77464778fe95d7dd9c88c5fcbed4825346a4b",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "id": "xyTKFGvJ6A6xBoVcsu7gA8",
@@ -464,28 +464,28 @@
           "type": "style",
           "hash": "faee0e4433fb983d6ccf99cb754ed653953b1303",
           "postLintHash": "faee0e4433fb983d6ccf99cb754ed653953b1303",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "path": "public/favicon.png",
           "type": "asset",
           "hash": "8dc8c9ce937e52b29f34e13a2d7f4bea0c5d0267",
           "postLintHash": "2adccf2b7ced8ad40033b7ca90980365722801c6",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.341Z"
         },
         {
           "path": "public/pwa-192x192.png",
           "type": "asset",
           "hash": "6bbda08fdfcbbb576ad55fdb7743e651cd62bbbf",
           "postLintHash": "17c410d9e23067650dd5e488dd7499963756f53c",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.341Z"
         },
         {
           "path": "public/pwa-512x512.png",
           "type": "asset",
           "hash": "dca45f85a385b4d0133aa64290f4bb6456ed722e",
           "postLintHash": "29e2b307d5fe071ccbabfe3b6f6001d05367f233",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.345Z"
         },
         {
           "path": ".github/workflows/kapix-action.yml",
@@ -504,7 +504,7 @@
           "type": "internal",
           "hash": "541b28dd57abb3ea544c29143420ed4e462a8c05",
           "postLintHash": "541b28dd57abb3ea544c29143420ed4e462a8c05",
-          "lastModified": "2023-08-07T12:31:57.779Z"
+          "lastModified": "2023-08-07T13:50:20.337Z"
         },
         {
           "path": "index.html",
@@ -517,7 +517,7 @@
           "type": "internal",
           "hash": "9fb5be3c55828378127d092ec5e100a10f5c08c3",
           "postLintHash": "9fb5be3c55828378127d092ec5e100a10f5c08c3",
-          "lastModified": "2023-08-07T12:31:57.783Z"
+          "lastModified": "2023-08-07T13:50:20.345Z"
         },
         {
           "path": "src/dynamicRoutes.ts",
@@ -536,7 +536,7 @@
           "type": "internal",
           "hash": "3fd5773fa14ec19711924d09177a2bbaac12f452",
           "postLintHash": "3fd5773fa14ec19711924d09177a2bbaac12f452",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "path": "src/stores/appAuthentication.custom.ts",
@@ -549,7 +549,7 @@
           "type": "store",
           "hash": "fc3c324cde2b0fb7d23d57a3696fd3a55c32d05f",
           "postLintHash": "d0b5ad4d214672683625ab0f88c0e6e8dc749747",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "path": "src/stores/appData.custom.ts",
@@ -562,14 +562,14 @@
           "type": "store",
           "hash": "bcc6be7f04cb158d15328f085f48db6fa1b1dcd4",
           "postLintHash": "e6a488ed0e6b5485c4d53e73bf0e8cc11ed7f874",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         },
         {
           "path": "src/stores/index.ts",
           "type": "store",
           "hash": "e14eee2b36f433a0619e96e2aeabc3806edc3c83",
           "postLintHash": "e14eee2b36f433a0619e96e2aeabc3806edc3c83",
-          "lastModified": "2023-08-07T12:31:57.787Z"
+          "lastModified": "2023-08-07T13:50:20.349Z"
         }
       ]
     }
