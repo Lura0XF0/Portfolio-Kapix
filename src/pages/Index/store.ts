@@ -20,8 +20,8 @@ function portfolioFactory (storeId?: Nullable<StoreIdentifier>) {
         $router: kapixContext.isClient ? kapixContext.$router : undefined,
         $route: kapixContext.isClient ? kapixContext.$route : undefined,
         // Page info,
-        $title: $translate('portfolio.title', 'Portfolio de Maxime Lubrano : Expert en Cybersécurité | Découvrez mes compétences et réalisations'),
-        $description: $translate('portfolio.description', `Découvrez mon portfolio polyvalent en cybersécurité et technologies IT. Je suis Maxime Lubrano, spécialisé en cyber sécurité, je fais aussi de l'administration réseau en entreprise et DevOps. Explorez mes projets et réalisations dans le domaine de la sécurité informatique, tout en découvrant mes compétences en Linux, Hardware et développement de code.
+        $title: $translate('portfolio.title', 'Maxime Lubrano : Etudiant en Cybersécurité | Découvrez mon Portfolio'),
+        $description: $translate('portfolio.description', `Découvrez mon portfolio polyvalent en cybersécurité et technologies IT. Je suis Maxime Lubrano, étudiant en cyber sécurité, je fais aussi de l'administration réseau en entreprise et DevOps. Explorez mes projets et réalisations dans le domaine de la sécurité informatique, tout en découvrant mes compétences en Linux, Hardware et développement de code.
 `),
         $publishedTime: new Date('2023-03-15T08:06:34.738Z'),
         $modifiedTime: new Date('2023-08-08T07:57:44.962Z'),

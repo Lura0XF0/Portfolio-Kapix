@@ -64,8 +64,7 @@
           value="https://ucarecdn.com/79eca7da-fb8c-4855-98bb-7a158bc744ea/" />
         <ka-text
           code="description"
-          :options="{ style: { color: appData.theme.fontFamily } }"
-          :sm="{ textNoWrap: false }">
+          :options="{ style: { color: appData.theme.fontFamily } }">
           <span v-html="t('portfolio.container2.competence.description.value', `Doté(e) d'une formation en cyber informatique, je maîtrise un large éventail de compétences allant de l'analyse de vulnérabilités et le test d'intrusion, jusqu'à la mise en place de mesures de protection avancées, en passant par la programmation sécurisée et la gestion proactive des risques numériques`)" />
         </ka-text>
       </ka-container>
@@ -90,8 +89,7 @@
           value="https://ucarecdn.com/5fcfde0e-dc6f-42d9-bcc0-536e2e9d4e48/" />
         <ka-text
           code="description-text"
-          :options="{ style: { color: appData.theme.fontFamily } }"
-          :sm="{ textNoWrap: false }">
+          :options="{ style: { color: appData.theme.fontFamily } }">
           <span v-html="t('portfolio.container2.competenceContainer.descriptionText.value', `Malgré mon orientation initiale en cyber informatique, j'ai développé des compétences remarquables en infrastructure réseau grâce à des experiences travail ou à mon désir d'explorer de nouveaux horizons, me permettant ainsi de concevoir et de mettre en œuvre des architectures réseau (Nginx, GeoIP, PotegreSQL, Keykloak) pour soutenir des environnements informatiques exigeants.`)" />
         </ka-text>
       </ka-container>
@@ -116,8 +114,7 @@
           value="https://ucarecdn.com/33b960ce-f75c-455d-8d0f-1983571ff81b/" />
         <ka-text
           code="description-1"
-          :options="{ style: { color: appData.theme.fontFamily } }"
-          :sm="{ textNoWrap: false }">
+          :options="{ style: { color: appData.theme.fontFamily } }">
           <span v-html="t('portfolio.container2.competence1.description1.value', `J'ai aussi acquis des compétences en DevOps en me lançant dans des projets innovants, automatisant les déploiements (Kubernetes), optimisant les processus de développement et favorisant une collaboration efficace entre les équipes (Docker), démontrant ainsi ma capacité à exceller dans le domaine du DevOps malgré son éloignement de ma spécialité.`)" />
         </ka-text>
       </ka-container>
