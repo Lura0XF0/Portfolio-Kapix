@@ -290,6 +290,11 @@
   &.template-style {
     max-width: 200px;
   }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      align-self: center;
+    }
+  }
 }
 // Mon Parcours > Container 1 > Container > Container 2 > Container > Description
 .description-text--p5 {
@@ -344,6 +349,11 @@
   &.template-style {
     max-width: 200px;
   }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      align-self: center;
+    }
+  }
 }
 // Mon Parcours > Container 1 > Container > Container 2 > Container 1 > Description
 .description-1--p5 {
@@ -397,6 +407,11 @@
   }
   &.template-style {
     max-width: 200px;
+  }
+  @include media-breakpoint-down(xs) {
+    &.outer-style {
+      align-self: center;
+    }
   }
 }
 // Mon Parcours > Container 1 > Container > Container 2 > Container > Description

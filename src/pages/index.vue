@@ -34,21 +34,22 @@
       <ka-text code="nom-prenom">
         <span v-html="t('portfolio.container1.nomPrenom.value', `Maxime Lubrano`)" />
       </ka-text>
-    </ka-container>
-    <!-- Container 2 -->
-    <ka-container
-      code="container-2"
-      inner>
+      <ka-separator code="separator" />
       <ka-text
         code="titre-text"
         :options="{ style: { fontFamily: appData.theme.fontFamily2 } }">
-        <span v-html="t('portfolio.container2.titreText.value', `<strong>Mes Competences Principales</strong>`)" />
+        <span v-html="t('portfolio.container1.titreText.value', `<strong>Mes Competences Principales</strong>`)" />
       </ka-text>
-      <ka-text code="description">
-        <span v-html="t('portfolio.container2.description.value', `Voici les compétences sur lesquelles je serai apte à mettre en œuvre ou développer`)" />
-      </ka-text>
+    </ka-container>
+    <!-- Container 2 -->
+    <ka-container code="container-2">
       <!-- Competence -->
       <ka-container code="competence">
+        <ka-text
+          code="sous-titre"
+          :options="{ style: { fontFamily: appData.theme.fontFamily2 } }">
+          <span v-html="t('portfolio.container2.competence.sousTitre.value', `Cybersécurité`)" />
+        </ka-text>
         <ka-image
           code="image"
           :options="{
@@ -62,13 +63,19 @@
           }"
           value="https://ucarecdn.com/79eca7da-fb8c-4855-98bb-7a158bc744ea/" />
         <ka-text
-          code="description-text"
-          :options="{ style: { color: appData.theme.fontFamily } }">
-          <span v-html="t('portfolio.container2.competence.descriptionText.value', `Doté(e) d'une formation en cyber informatique, je maîtrise un large éventail de compétences allant de l'analyse de vulnérabilités et le test d'intrusion, jusqu'à la mise en place de mesures de protection avancées, en passant par la programmation sécurisée et la gestion proactive des risques numériques`)" />
+          code="description"
+          :options="{ style: { color: appData.theme.fontFamily } }"
+          :sm="{ textNoWrap: false }">
+          <span v-html="t('portfolio.container2.competence.description.value', `Doté(e) d'une formation en cyber informatique, je maîtrise un large éventail de compétences allant de l'analyse de vulnérabilités et le test d'intrusion, jusqu'à la mise en place de mesures de protection avancées, en passant par la programmation sécurisée et la gestion proactive des risques numériques`)" />
         </ka-text>
       </ka-container>
       <!-- Competence -->
       <ka-container code="competence-container">
+        <ka-text
+          code="sous-titre-text"
+          :options="{ style: { fontFamily: appData.theme.fontFamily2 } }">
+          <span v-html="t('portfolio.container2.competenceContainer.sousTitreText.value', `Infrastructure`)" />
+        </ka-text>
         <ka-image
           code="image-1"
           :options="{
@@ -82,13 +89,19 @@
           }"
           value="https://ucarecdn.com/5fcfde0e-dc6f-42d9-bcc0-536e2e9d4e48/" />
         <ka-text
-          code="description-1"
-          :options="{ style: { color: appData.theme.fontFamily } }">
-          <span v-html="t('portfolio.container2.competenceContainer.description1.value', `Malgré mon orientation initiale en cyber informatique, j'ai développé des compétences remarquables en infrastructure réseau grâce à des experiences travail ou à mon désir d'explorer de nouveaux horizons, me permettant ainsi de concevoir et de mettre en œuvre des architectures réseau (Nginx, GeoIP, PotegreSQL, Keykloak) pour soutenir des environnements informatiques exigeants.`)" />
+          code="description-text"
+          :options="{ style: { color: appData.theme.fontFamily } }"
+          :sm="{ textNoWrap: false }">
+          <span v-html="t('portfolio.container2.competenceContainer.descriptionText.value', `Malgré mon orientation initiale en cyber informatique, j'ai développé des compétences remarquables en infrastructure réseau grâce à des experiences travail ou à mon désir d'explorer de nouveaux horizons, me permettant ainsi de concevoir et de mettre en œuvre des architectures réseau (Nginx, GeoIP, PotegreSQL, Keykloak) pour soutenir des environnements informatiques exigeants.`)" />
         </ka-text>
       </ka-container>
       <!-- Competence -->
       <ka-container code="competence-1">
+        <ka-text
+          code="sous-titre-1"
+          :options="{ style: { fontFamily: appData.theme.fontFamily2 } }">
+          <span v-html="t('portfolio.container2.competence1.sousTitre1.value', `Devops`)" />
+        </ka-text>
         <ka-image
           code="image-2"
           :options="{
@@ -102,9 +115,10 @@
           }"
           value="https://ucarecdn.com/33b960ce-f75c-455d-8d0f-1983571ff81b/" />
         <ka-text
-          code="description-2"
-          :options="{ style: { color: appData.theme.fontFamily } }">
-          <span v-html="t('portfolio.container2.competence1.description2.value', `J'ai aussi acquis des compétences en DevOps en me lançant dans des projets innovants, automatisant les déploiements (Kubernetes), optimisant les processus de développement et favorisant une collaboration efficace entre les équipes (Docker), démontrant ainsi ma capacité à exceller dans le domaine du DevOps malgré son éloignement de ma spécialité.`)" />
+          code="description-1"
+          :options="{ style: { color: appData.theme.fontFamily } }"
+          :sm="{ textNoWrap: false }">
+          <span v-html="t('portfolio.container2.competence1.description1.value', `J'ai aussi acquis des compétences en DevOps en me lançant dans des projets innovants, automatisant les déploiements (Kubernetes), optimisant les processus de développement et favorisant une collaboration efficace entre les équipes (Docker), démontrant ainsi ma capacité à exceller dans le domaine du DevOps malgré son éloignement de ma spécialité.`)" />
         </ka-text>
       </ka-container>
     </ka-container>
@@ -143,8 +157,8 @@
             :options="{ style: { fontFamily: appData.theme.fontFamily2 } }">
             <span v-html="t('portfolio.container3.container.container4.titre2.value', `Hardware`)" />
           </ka-text>
-          <ka-text code="description-3">
-            <span v-html="t('portfolio.container3.container.container4.description3.value', `Fort en hardware depuis mon enfance, mes compétences me permettent de jouer un rôle essentiel dans n'importe quel environnement de travail en assurant une gestion efficace du matériel, des systèmes optimisés et des solutions innovantes,`)" />
+          <ka-text code="description-2">
+            <span v-html="t('portfolio.container3.container.container4.description2.value', `Fort en hardware depuis mon enfance, mes compétences me permettent de jouer un rôle essentiel dans n'importe quel environnement de travail en assurant une gestion efficace du matériel, des systèmes optimisés et des solutions innovantes,`)" />
           </ka-text>
         </ka-container>
         <!-- Container -->
@@ -166,8 +180,8 @@
             :options="{ style: { fontFamily: appData.theme.fontFamily2 } }">
             <span v-html="t('portfolio.container3.container.container5.titre3.value', `Code`)" />
           </ka-text>
-          <ka-text code="description-4">
-            <span v-html="t('portfolio.container3.container.container5.description4.value', `En tant que développeur de niveau intermédiaire, mes compétences en programmation offrent une base solide pour résoudre des problèmes et créer des fonctionnalités essentielles pour le travail. <br>Mes language de code que je manie le plus sont : <br>Python, Bash, Go , C`)" />
+          <ka-text code="description-3">
+            <span v-html="t('portfolio.container3.container.container5.description3.value', `En tant que développeur de niveau intermédiaire, mes compétences en programmation offrent une base solide pour résoudre des problèmes et créer des fonctionnalités essentielles pour le travail. <br>Mes language de code que je manie le plus sont : <br>Python, Bash, Go , C`)" />
           </ka-text>
         </ka-container>
         <!-- Container -->
@@ -189,8 +203,8 @@
             :options="{ style: { fontFamily: appData.theme.fontFamily2 } }">
             <span v-html="t('portfolio.container3.container.container6.titre4.value', `Linux`)" />
           </ka-text>
-          <ka-text code="description-5">
-            <span v-html="t('portfolio.container3.container.container6.description5.value', `En tant qu'utilisateur de la suite Linux, mes compétences approfondies dans la gestion du système, l'administration de serveurs et l'utilisation des outils en ligne de commande me permettent de fournir un support technique, d'optimiser les performances et de garantir la stabilité des infrastructures informatiques de l'entreprise.`)" />
+          <ka-text code="description-4">
+            <span v-html="t('portfolio.container3.container.container6.description4.value', `En tant qu'utilisateur de la suite Linux, mes compétences approfondies dans la gestion du système, l'administration de serveurs et l'utilisation des outils en ligne de commande me permettent de fournir un support technique, d'optimiser les performances et de garantir la stabilité des infrastructures informatiques de l'entreprise.`)" />
           </ka-text>
         </ka-container>
       </ka-container>

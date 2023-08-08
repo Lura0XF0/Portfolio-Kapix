@@ -23,7 +23,7 @@ function monParcoursFactory (storeId?: Nullable<StoreIdentifier>) {
         $title: $translate('mon-parcours.title', 'Mon Parcours'),
         $description: $translate('mon-parcours.description', ''),
         $publishedTime: new Date('2023-03-15T08:06:34.738Z'),
-        $modifiedTime: new Date('2023-08-07T08:27:41.810Z'),
+        $modifiedTime: new Date('2023-08-08T07:59:06.925Z'),
         // Constants,
         $constants: {},
         // Data,

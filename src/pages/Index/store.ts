@@ -24,7 +24,7 @@ function portfolioFactory (storeId?: Nullable<StoreIdentifier>) {
         $description: $translate('portfolio.description', `Découvrez mon portfolio polyvalent en cybersécurité et technologies IT. Je suis Maxime Lubrano, spécialisé en cyber sécurité, je fais aussi de l'administration réseau en entreprise et DevOps. Explorez mes projets et réalisations dans le domaine de la sécurité informatique, tout en découvrant mes compétences en Linux, Hardware et développement de code.
 `),
         $publishedTime: new Date('2023-03-15T08:06:34.738Z'),
-        $modifiedTime: new Date('2023-08-04T07:51:45.009Z'),
+        $modifiedTime: new Date('2023-08-08T07:57:44.962Z'),
         // Constants,
         $constants: {},
         // Data,
