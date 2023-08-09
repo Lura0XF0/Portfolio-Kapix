@@ -15,8 +15,8 @@
         <ka-icon
           code="icon"
           value="i-fa-solid:envelope" />
-        <ka-text code="email-maxime-lubrano-hotmail-fr">
-          <span v-html="t('contact.container.container1.emailMaximeLubranoHotmailFr.value', `Email : maxime.lubrano&#64;hotmail.fr`)" />
+        <ka-text code="email">
+          <span v-html="t('contact.container.container1.email.value', `Email : maxime.lubrano&#64;hotmail.fr`)" />
         </ka-text>
         <ka-icon
           code="icon-1"
@@ -42,9 +42,9 @@
           code="icon-4"
           value="i-fa-brands:linkedin" />
         <ka-text
-          code="linked-in-maxime-lubrano-66-b-828263"
+          code="linked-in"
           inner>
-          <span v-html="t('contact.container.container3.linkedInMaximeLubrano66B828263.value', `LinkedIn : maxime-lubrano-66b828263`)" />
+          <span v-html="t('contact.container.container3.linkedIn.value', `LinkedIn : maxime-lubrano-66b828263`)" />
         </ka-text>
         <ka-icon
           code="icon-5"
@@ -56,12 +56,12 @@
         <ka-icon
           code="icon-6"
           value="i-fa-brands:github" />
-        <ka-text code="github-mad-fire-07">
-          <span v-html="t('contact.container.container4.githubMadFire07.value', `Github : MadFire07`)" />
+        <ka-text code="github">
+          <span v-html="t('contact.container.container4.github.value', `Github : MadFire07`)" />
         </ka-text>
         <ka-icon
-          code="icon-7"
-          :options="{ click: page.icon7Click }"
+          code="copiee"
+          :options="{ click: page.copieeClick }"
           value="i-fa-solid:copy" />
       </ka-container>
     </ka-container>

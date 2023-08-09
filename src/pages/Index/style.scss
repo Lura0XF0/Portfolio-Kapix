@@ -16,8 +16,12 @@
   }
   &.scroller-style {
     flex-wrap: wrap;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     overflow-x: hidden;
     overflow-y: auto;
+    scrollbar-width: none;
   }
 }
 // Portfolio > Haut de page

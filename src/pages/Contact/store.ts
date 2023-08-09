@@ -23,7 +23,7 @@ function contactFactory (storeId?: Nullable<StoreIdentifier>) {
         $title: $translate('contact.title', 'Contact'),
         $description: $translate('contact.description', ''),
         $publishedTime: new Date('2023-08-02T14:21:24.310Z'),
-        $modifiedTime: new Date('2023-08-04T07:49:15.055Z'),
+        $modifiedTime: new Date('2023-08-09T07:30:57.612Z'),
         // Constants,
         $constants: {},
         // Data,
@@ -51,7 +51,7 @@ function contactFactory (storeId?: Nullable<StoreIdentifier>) {
         useToast().info('LinkedIn Copiée !')
       },
       /* @ts-ignore: to allow override in your custom file */
-      async icon7Click () {
+      async copieeClick () {
         await textToClipboard('MadFire07')
         useToast().info('Github Copiée !')
       },
