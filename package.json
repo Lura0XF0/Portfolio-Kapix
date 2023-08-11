@@ -47,7 +47,7 @@
     "@vueuse/shared": "9.3.0",
     "animate.css": "3.7.2",
     "axios": "1.1.2",
-    "kapix-components-vue3": "2.1.271",
+    "kapix-components-vue3": "2.1.273",
     "kapix-github-ci": "0.0.237",
     "lodash-es": "4.17.21",
     "nprogress": "0.2.0",

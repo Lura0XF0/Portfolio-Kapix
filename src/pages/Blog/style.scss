@@ -17,8 +17,12 @@
   &.scroller-style {
     flex-wrap: wrap;
     justify-content: center;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     overflow-x: hidden;
     overflow-y: auto;
+    scrollbar-width: none;
   }
 }
 // Blog > Haut de page

@@ -24,8 +24,8 @@ dependencies:
     specifier: 1.1.2
     version: 1.1.2
   kapix-components-vue3:
-    specifier: 2.1.271
-    version: 2.1.271(typescript@4.8.4)
+    specifier: 2.1.273
+    version: 2.1.273(typescript@4.8.4)
   kapix-github-ci:
     specifier: 0.0.237
     version: 0.0.237
@@ -6448,7 +6448,7 @@ packages:
     resolution: {integrity: sha512-jbokKWGcyU4gl6jAfX97E1gDpY12DJ1cLJZmoDzaAln/shZ+S3KBFBuA2Q6WeUN4gJf/8klnV1EfvhA2lK5IRQ==}
     engines: {node: '>=12.0.0'}
     dependencies:
-      luxon: 3.3.0
+      luxon: 3.4.0
     dev: true
 
   /cross-env@7.0.3:
@@ -10364,8 +10364,8 @@ packages:
     resolution: {integrity: sha512-UfpWE/VZn0iP50d8cz9NrZLM9lSWhcJ+0Gt/nm4by88UL+J1SiKN8/5dkjMmbEzwL2CAe+67GsegCbIKtbp75A==}
     dev: true
 
-  /kapix-components-vue3@2.1.271(typescript@4.8.4):
-    resolution: {integrity: sha512-UUSjMKBJtBHpUfVyRm2wACxAOFiINcHgGmJOSXKMSfJMqMnkyQISyZIGiZK808/QUiI04K9WSj6B1KdyXFCzCQ==}
+  /kapix-components-vue3@2.1.273(typescript@4.8.4):
+    resolution: {integrity: sha512-tgBndXf8Ry6u82/xGoCNd3WJfTdTJ0QzAthzAhFDhsJPfh+SKKEhIyO+WHn1zEi/n5A0UZsHJINK9S0kiXWNhA==}
     engines: {node: '>=16.0.0'}
     dependencies:
       '@brackets/vue-toastification': 2.0.2(vue@3.2.45)
@@ -10928,8 +10928,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /luxon@3.3.0:
-    resolution: {integrity: sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==}
+  /luxon@3.4.0:
+    resolution: {integrity: sha512-7eDo4Pt7aGhoCheGFIuq4Xa2fJm4ZpmldpGhjTYBNUYNCN6TIEP6v7chwwwt3KRp7YR+rghbfvjyo3V5y9hgBw==}
     engines: {node: '>=12'}
     dev: true
 

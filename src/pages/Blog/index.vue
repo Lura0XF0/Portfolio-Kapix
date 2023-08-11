@@ -262,7 +262,7 @@
                     animationIn: `fadeInDown`,
                     hidden: page.$data.weekSelector === `6` ? false : null
                   }">
-                  <span v-html="t('blog.container1.container.container3Container.container4.container5.container74.description5.value', `Au cours de ma dernière semaine de stage, j'ai préparé un rapport complet sur les mesures de sécurité mises en place et les améliorations apportées aux serveurs et à l'outil No-Code.<br> <br>Tâches effectuées :<br> <br> - Rédaction d'un rapport détaillé sur les actions entreprises en matière de cybersécurité.<br> - Présentation orale devant l'équipe de direction pour partager les résultats et les recommandations.<br> - Remise du rapport aux responsables de l'entreprise pour une éventuelle mise en œuvre des recommandations.`)" />
+                  <span v-html="t('blog.container1.container.container3Container.container4.container5.container74.description5.value', `Au cours de ma dernière semaine de stage, j'ai fais quelque derniere modification sur certain template et de recherche.<br> <br>Tâches effectuées :<br> <br> - Administration d'une base de donnes pour un site web.<br> - Recherche pour l'automatisation de la mise en place du DNS pour les site web cree sur Kapix.<br> - Remise du rapport aux responsables de l'entreprise pour une éventuelle mise en œuvre des recommandations.`)" />
                 </ka-text>
               </ka-container>
               <ka-text

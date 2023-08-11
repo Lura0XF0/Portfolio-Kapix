@@ -1,0 +1,72 @@
+{
+  "portfolio": {
+    "container1": {
+      "titre": {
+        "value": "PORTFOLIO"
+      },
+      "nomPrenom": {
+        "value": "Maxime Lubrano"
+      },
+      "titreText": {
+        "value": "<strong>Month Main Competences</strong>"
+      }
+    },
+    "container3": {
+      "container": {
+        "container4": {
+          "titre2": {
+            "value": "Hardware"
+          },
+          "description2": {
+            "value": "Strong in hardware since my childhood, my skills allow me to play an essential role in any working environment by ensuring efficient management of hardware, optimized systems and innovative solutions,"
+          }
+        },
+        "container5": {
+          "description3": {
+            "value": "As a mid-level developer, my programming skills provide a solid foundation for solving problems and building essential functionality for the job.<br> My code languages that I use the most are:<br> Python, Bash, Go, C"
+          },
+          "titre3": {
+            "value": "Code"
+          }
+        },
+        "container6": {
+          "description4": {
+            "value": "As a user of the Linux suite, my in-depth skills in system management, server administration and the use of command-line tools allow me to provide technical support, optimize performance and guarantee the stability of the company's IT infrastructure."
+          },
+          "titre4": {
+            "value": "Linux"
+          }
+        }
+      },
+      "titre1": {
+        "value": "<strong>My Secondary Skills</strong>"
+      }
+    },
+    "container2": {
+      "competence": {
+        "description": {
+          "value": "With a background in cyber computing, I master a wide range of skills ranging from vulnerability analysis and intrusion testing, to the implementation of advanced protection measures, including secure programming and proactive digital risk management"
+        },
+        "sousTitre": {
+          "value": "Cybersecurity"
+        }
+      },
+      "competenceContainer": {
+        "descriptionText": {
+          "value": "Despite my initial orientation in cyber computing, I developed remarkable skills in network infrastructure thanks to work experiences or my desire to explore new horizons, allowing me to design and implement network architectures (Nginx, GeoIP, PotegreSQL, Keykloak) to support demanding computing environments."
+        },
+        "sousTitreText": {
+          "value": "Infrastructure"
+        }
+      },
+      "competence1": {
+        "description1": {
+          "value": "I also acquired skills in DevOps by embarking on innovative projects, automating deployments (Kubernetes), optimizing development processes and promoting effective collaboration between teams (Docker), thus demonstrating my ability to excel in the field. of DevOps despite its distance from my specialty."
+        },
+        "sousTitre1": {
+          "value": "Devops"
+        }
+      }
+    }
+  }
+}
