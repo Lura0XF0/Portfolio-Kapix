@@ -360,7 +360,12 @@ export default defineConfig({
       mergeStylesheets: true,
       compress: true
     },
-    onFinished () { generateSitemap({ hostname: appInfo.hostname }) }
+    onFinished () { 
+      generateSitemap({ 
+        hostname: appInfo.hostname,
+        exclude: ['/contact']
+      }) 
+    }
   },
 
   ssr: {
