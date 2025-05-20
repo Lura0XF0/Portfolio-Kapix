@@ -5,7 +5,7 @@
   "funding": "https://www.kapix.fr",
   "bugs": "https://discord.com/invite/PzRymg6VV9",
   "engines": {
-    "node": ">=16",
+    "node": ">=18",
     "pnpm": ">=7"
   },
   "scripts": {
