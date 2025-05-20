@@ -1,5 +1,6 @@
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "16"
+  PNPM_VERSION = "7.33.6"
 
 [build]
   publish = "dist"
